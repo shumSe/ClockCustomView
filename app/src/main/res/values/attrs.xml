@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAnalogClock">
+        <!--Text Attributes-->
+        <attr name="textSize" format="float" />
+        <attr name="textColor" format="color" />
+
+        <!--Background Attributes-->
+        <attr name="backgroundColor" format="color" />
+
+        <!--Clock Border Attributes-->
+        <attr name="clockBorderColor" format="color" />
+        <attr name="clockBorderWidth" format="float" />
+
+        <!--Hands Attributes-->
+        <attr name="hourHandColor" format="color" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="secondHandColor" format="color" />
+
+        <attr name="hourHandWidth" format="float" />
+        <attr name="minuteHandWidth" format="float" />
+        <attr name="secondHandWidth" format="float" />
+
+        <!--Points Attributes-->
+        <attr name="centerPointColor" format="color" />
+        <attr name="minutesPointColor" format="color" />
+
+        <attr name="centerPointSize" format="float" />
+        <attr name="minutesPointSize" format="float" />
+        <attr name="hoursPointSize" format="float" />
+
+    </declare-styleable>
+</resources>
